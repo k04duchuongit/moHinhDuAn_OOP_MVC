@@ -1,0 +1,20 @@
+.overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0,0.4);
+    display: none;
+    justify-content: center;
+    align-items: center; 
+}
+.overlay-content{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+}
+.bi.bi-x-lg{
+    font-size: 1.5rem;
+    padding: 10px;
+    cursor: pointer;
+}
